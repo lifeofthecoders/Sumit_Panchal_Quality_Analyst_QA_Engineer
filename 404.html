@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Redirecting · Sumit Panchal Portfolio</title>
+  <script>
+    (function () {
+      var repo = '/Sumit_Panchal_Quality_Analyst_QA_Engineer/';
+      var path = window.location.pathname;
+      var remainder = path.replace(/^\/Sumit_Panchal_Quality_Analyst_QA_Engineer\/?/, '');
+      var target = repo + (remainder ? '?redirect=' + encodeURIComponent(remainder) : '') + window.location.search + window.location.hash;
+      window.location.replace(target);
+    })();
+  </script>
+</head>
+<body></body>
+</html>
